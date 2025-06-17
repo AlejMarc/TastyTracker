@@ -219,37 +219,6 @@ def show_results_page():
         main_recommendation = foods_df.iloc[0]
         display_food(main_recommendation, is_openai_mode=True)
 
-        # st.markdown("<h2 style='text-align: center;'>Alternative Options</h2>", unsafe_allow_html=True)
-        # with st.spinner("Generating alternative recommendations..."):
-        #     alternatives_df = generate_alternative_food_recommendations(
-        #         main_recommendation,
-        #         form_data['preferences'],
-        #         form_data['allergens'],
-        #         form_data['cuisine_type'],
-        #         form_data['meal_type'],
-        #         custom_prompt=None,
-        #         diet_type=form_data['diet_type']
-        #     )
-
-        #     if not alternatives_df.empty:
-        #         # Create carousel container with navigation
-        #         # Initialize carousel index in session state if not exists
-        #         if 'carousel_index' not in st.session_state:
-        #             st.session_state.carousel_index = 0
-
-        #         # Navigation buttons
-        #         col1, col2, col3 = st.columns([1, 8, 1])
-        #         with col1:
-        #             if st.button('←', key='prev'):
-        #                 st.session_state.carousel_index = (st.session_state.carousel_index - 1) % len(alternatives_df)
-        #         with col2:
-        #             # Display current alternative
-        #             display_food(alternatives_df.iloc[st.session_state.carousel_index], is_openai_mode=True)
-        #         with col3:
-        #             if st.button('→', key='next'):
-        #                 st.session_state.carousel_index = (st.session_state.carousel_index + 1) % len(alternatives_df)
-        #     else:
-        #         st.info("No alternative options could be generated.")
     elif form_data['display_option'] == "Recipes Only" and not recipes_df.empty:
         st.header("🥘 Recipes")
         display_recipe(recipes_df.iloc[0], is_openai_mode=True)
