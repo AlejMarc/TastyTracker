@@ -1,5 +1,4 @@
-# TastyTracker
-# Welcome to the Tasty Tracker wiki!
+# Welcome to the Tasty Tracker
 
 Introduction:
 
