@@ -1,0 +1,337 @@
+/* Sidebar styles */
+[data-testid="stSidebar"] {
+    color: #190F65;
+}
+
+/* Sidebar input styles */
+[data-testid="stSidebar"] .stSelectbox label,
+[data-testid="stSidebar"] .stMultiSelect label,
+[data-testid="stSidebar"] .stNumberInput label,
+[data-testid="stSidebar"] .stRadio label,
+[data-testid="stSidebar"] .stTextArea label,
+[data-testid="stSidebar"] .stRadio div[data-testid="stMarkdownContainer"] p {
+    color: #190F65 !important;
+}
+
+/* Welcome page styles */
+div[data-testid="stAppViewContainer"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* Only show background on welcome page */
+div[data-testid="stAppViewContainer"]:has(h1.centered-title) {
+    background: linear-gradient(rgba(245, 236, 213, 0.7), rgba(245, 236, 213, 0.7)), 
+                url('https://images.unsplash.com/photo-1543352634-99a5d50ae78e?q=80&w=2070') no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+/* Welcome page text enhancement */
+div[data-testid="stMarkdownContainer"] h1.centered-title {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    padding: 30px 20px !important;
+    margin: 60px auto 40px !important;
+    max-width: 800px;
+    color: #2A5816;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(120deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.centered-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px !important;
+    margin: 30px auto 20px 100px !important;
+    max-width: 800px;
+    color: #356E1C;
+    text-align: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+/* Results page container (when metrics are present) */
+div[data-testid="stAppViewContainer"]:has(div[data-testid="stMetricValue"]) {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main content container */
+.main .block-container {
+    max-width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+}
+
+/* Landing page headers */
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) div[data-testid="stMarkdownContainer"] h1,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) div[data-testid="stMarkdownContainer"] h3,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stSubheader {
+    color: #626F47 !important;
+}
+
+/* Landing page form styles */
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stSelectbox label,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stMultiSelect label,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stNumberInput label,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stRadio label,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stTextArea label,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) [data-testid="stMarkdownContainer"] p {
+    color: #373D2C !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 540 !important;
+}
+
+/* Input box styles for landing page */
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) input[type="number"],
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) input[type="text"],
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) textarea,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stSelectbox > div[data-baseweb="select"] > div,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) .stMultiSelect > div[data-baseweb="select"] > div,
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) div[role="listbox"] {
+    background-color: white !important;
+}
+
+/* Style multiselect placeholder text and options */
+div[data-testid="stAppViewContainer"] .stMultiSelect [data-baseweb="select"],
+div[data-testid="stAppViewContainer"] .stMultiSelect [data-baseweb="select"] [data-testid="stMarkdown"] p,
+div[data-testid="stAppViewContainer"] .stMultiSelect div[role="option"],
+div[data-testid="stAppViewContainer"] .stMultiSelect span {
+    color: white !important;
+}
+
+/* Preferences dropdown styling */
+div[data-testid="stAppViewContainer"] div[role="listbox"] {
+    background-color: white !important;
+}
+
+/* Form buttons */
+.stButton button {
+    background-color: #5F8B4C !important;
+    color: white !important;
+    border: none !important;
+    margin: 20px 20px 20px auto !important;
+}
+
+/* Position all Next buttons */
+div[data-testid="column"]:has(button:contains("Next")) {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+    margin: 60px 0 20px 0;
+}
+/* Add space below activity level alert */
+div[data-testid="stAlert"] {
+    margin-bottom: 80px;
+}
+
+/* Center Final Steps text */
+div[data-testid="stMarkdownContainer"] h3:contains("Final Steps") {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+    margin: 20px auto !important;
+}
+/* Add extra space below text area on food history page */
+div[data-testid="stTextArea"] {
+    margin-bottom: 80px;
+}
+div[data-testid="stMultiSelect"] {
+    margin-bottom: 80px;
+}
+.stButton button:hover {
+    background-color: #90C67C !important;
+}
+
+/* Metrics container styles */
+.metrics-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.metrics-container .stSelectbox,
+.metrics-container .stNumberInput {
+    margin-bottom: 1rem;
+}
+
+/* Global background styles */
+body {
+    background-color: #F5ECD5;
+}
+
+/* Ensure Streamlit container background matches */
+.stApp {
+    background-color: #F5ECD5;
+}
+
+/* Form page specific background */
+div[data-testid="stAppViewContainer"]:not(:has(div[data-testid="stMetricValue"])) {
+    background-color: #F5ECD5;
+}
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap');
+
+/* Centered title and text */
+.centered-title, .centered-text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+div[data-testid="stAppViewContainer"] div[data-testid="stMarkdownContainer"] p.centered-text,
+div[data-testid="stAppViewContainer"] .centered-text > div[data-testid="stMarkdownContainer"] > p {
+    font-family: 'Red Hat Display', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.centered-title {
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 700;
+}
+
+/* Section headers styling */
+div[data-testid="stMarkdownContainer"] h3,
+div[data-testid="stMarkdownContainer"] .stSubheader,
+div.stSubheader > div[data-testid="stMarkdownContainer"] > p {
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+    /* General container adjustments */
+    div[data-testid="stAppViewContainer"] {
+        padding: 1em !important;
+    }
+
+    /* Center food history heading */
+    .subheader, h3 {
+        text-align: center !important;
+        width: 100% !important;
+        display: block !important;
+        margin: 1em auto !important;
+    }
+
+    /* Title and header adjustments */
+    h1 {
+        font-size: 1.5rem !important;
+    }
+
+    h2, h3, .stSubheader {
+        font-size: 1.2rem !important;
+    }
+
+    /* Form elements */
+    .stSelectbox select,
+    .stNumberInput input,
+    .stTextInput input {
+        min-height: 44px !important;
+        font-size: 16px !important;
+        width: 100% !important;
+        margin: 4px 0 !important;
+    }
+
+    /* Food history text area specific styling */
+    .stTextArea textarea {
+        min-height: 44px !important;
+        font-size: 16px !important;
+        max-width: 800px !important;
+        margin: 4px auto !important;
+        display: block !important;
+    }
+
+    /* Container for food history section */
+    [data-testid="stTextArea"] {
+        max-width: 800px !important;
+        margin: 0 auto !important;
+    }
+
+    /* Metrics display */
+    [data-testid="stMetricValue"] {
+        font-size: 1.2rem !important;
+        padding: 0.5em !important;
+    }
+
+    /* Buttons */
+    .stButton button {
+        min-height: 44px !important;
+        width: 100% !important;
+        margin: 8px 0 !important;
+        font-size: 16px !important;
+    }
+
+    /* Column adjustments */
+    [data-testid="column"] {
+        width: 100% !important;
+        margin: 0.5em 0 !important;
+    }
+
+    /* Center radio buttons on mobile */
+    @media screen and (max-width: 768px) {
+        [data-testid="stRadio"] {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100% !important;
+            margin-top: 1rem;
+        }
+
+        [data-testid="stRadio"] > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto !important;
+        }
+
+        [data-testid="stMarkdownContainer"] + [data-testid="stRadio"] {
+            margin-top: 1rem;
+        }
+    }
+
+    /* Sidebar */
+    [data-testid="stSidebar"] {
+        width: 100% !important;
+        margin-right: 0 !important;
+        padding: 1em !important;
+    }
+
+    /* Expandable sections */
+    [data-testid="stExpander"] {
+        margin: 0.5em 0 !important;
+    }
+}
+
+/* Center radio button selector */
+div[data-testid="stRadio"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+div[data-testid="stRadio"] > div {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+div[data-testid="stRadio"] label {
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
