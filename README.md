@@ -9,13 +9,16 @@ Project Relevance:
 Obesity rates and associated health issues are on the rise worldwide, emphasizing the urgent need for solutions that promote healthier eating behaviors. Recommendation systems have proven effective in influencing consumer decisions across various domains, including entertainment and e-commerce. This project extends that concept to nutrition, aiming to improve public health through better dietary choices. As well as increase user awareness of nutritional information available to them. An end goal would be to provide a scalable solution adaptable to diverse dietary needs and cultural preferences.
 
 Installation Instructions:
+
 With a replit account, click on new app.
 
-Select import from github. Paste the Github repolink.
+Then select import from github. Paste the Github repolink when asked for.
 
-when it ask for command key, paste this
+Once you get to the configure you app page, it will ask for a command key, paste the following key.
 
 streamlit run main.py --server.port 5000
+
+Here's an example of what it should look like.
 
 Some Unique Features:
 
