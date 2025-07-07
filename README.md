@@ -8,13 +8,20 @@ Project Relevance:
 
 Obesity rates and associated health issues are on the rise worldwide, emphasizing the urgent need for solutions that promote healthier eating behaviors. Recommendation systems have proven effective in influencing consumer decisions across various domains, including entertainment and e-commerce. This project extends that concept to nutrition, aiming to improve public health through better dietary choices. As well as increase user awareness of nutritional information available to them. An end goal would be to provide a scalable solution adaptable to diverse dietary needs and cultural preferences.
 
+Installation Instructions:
+With a replit account, click on new app.
+
+Select import from github
+
+when it ask for command key, paste this
+
+streamlit run main.py --server.port 5000
+
 Some Unique Features:
 
 Personalized Recommendations: For The purpose of making the project more unique, the recommendations will have text generated that explain the reasoning behind the chosen food option. Characteristics are asked from the user to take into consideration when looking what foods to suggest to them. Their personal food preferences and restrictions are core factors, but features like a personas bodily metics and personal food history will help more personalize the experience.
 
 Food Consumption Analysis: There is an interest we have about using OpenAi to help summarize and find patterns in a users food history, to help create a mores specialized recommendation. An example of this system would be like suggesting movies on Netflix or product recommendations on amazon. The further use of Natural Language Processing (NLP) with Openai will help with tasks like creating recommendations with an appropriate analysis.
-
-Interactive Feedback : It's important to know from a users perspective what works and what doesn't. For recommendations, instant feedback and application can help future predictions be more accurate. Recommendations made with OpenAI will be ran through a verification function, to test the accuracy using a reputable food data base. This is to endure that the results are trust worthy and the user is not given misinformation.
 
 OpenAI: OpenAI is being tested for recommendation generation and analysis. Recommendations made by the program are from the local user data and an OpenAI explanation of the nutritional benefits of the recommendation. The prompt used in OpenAI for these recommendations use a person's food history logged onto a database and filters to form the most detail and accurate prompt to use in Open AI. Responses will need further testing for accuracy and reliability.  
 
