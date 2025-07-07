@@ -11,7 +11,7 @@ Obesity rates and associated health issues are on the rise worldwide, emphasizin
 Installation Instructions:
 With a replit account, click on new app.
 
-Select import from github
+Select import from github. Paste the Github repolink.
 
 when it ask for command key, paste this
 
