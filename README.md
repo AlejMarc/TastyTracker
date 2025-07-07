@@ -16,11 +16,15 @@ With a replit account, click on new app.
 
 Then select import from github. Paste the Github repolink when asked for.
 
+![UI](https://github.com/AlejMarc/TastyTracker/blob/main/appscreenshot/replitscreenshot2.png)
+
 Once you get to the configure you app page, it will ask for a command key, paste the following key.
 ```bash
 streamlit run main.py --server.port 5000
 ```
 Here's an example of what it should look like.
+
+![UI](https://github.com/AlejMarc/TastyTracker/blob/main/appscreenshot/replitscreenshot3.png)
 
 Some Unique Features:
 
