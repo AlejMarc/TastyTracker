@@ -4,11 +4,11 @@
 
 Unhealthy eating habits are a leading cause of global public health issues such as obesity and chronic diseases. Addressing these problems requires innovative approaches to guide individuals toward better food choices. The Healthy Food Recommender System is designed to tackle this challenge by providing users with personalized food recommendations that align with their taste preferences while promoting healthier alternatives. By leveraging advanced machine learning techniques, the system aims to encourage a gradual shift toward sustainable, nutritious diets.
 
-Project Relevance:
+## Project Relevance:
 
 Obesity rates and associated health issues are on the rise worldwide, emphasizing the urgent need for solutions that promote healthier eating behaviors. Recommendation systems have proven effective in influencing consumer decisions across various domains, including entertainment and e-commerce. This project extends that concept to nutrition, aiming to improve public health through better dietary choices. As well as increase user awareness of nutritional information available to them. An end goal would be to provide a scalable solution adaptable to diverse dietary needs and cultural preferences.
 
-Installation Instructions:
+## Installation Instructions:
 
 With a replit account, click on new app.
 
