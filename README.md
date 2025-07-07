@@ -12,6 +12,8 @@ Obesity rates and associated health issues are on the rise worldwide, emphasizin
 
 With a replit account, click on new app.
 
+![UI](https://github.com/AlejMarc/TastyTracker/blob/main/replitscreenshots/.png)
+
 Then select import from github. Paste the Github repolink when asked for.
 
 Once you get to the configure you app page, it will ask for a command key, paste the following key.
