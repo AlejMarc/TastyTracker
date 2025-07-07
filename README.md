@@ -26,9 +26,9 @@ Here's an example of what it should look like.
 
 ![UI](https://github.com/AlejMarc/TastyTracker/blob/main/appscreenshot/replitscreenshot3.png)
 
-Some Unique Features:
+## Some Unique Features:
 
-Personalized Recommendations: For The purpose of making the project more unique, the recommendations will have text generated that explain the reasoning behind the chosen food option. Characteristics are asked from the user to take into consideration when looking what foods to suggest to them. Their personal food preferences and restrictions are core factors, but features like a personas bodily metics and personal food history will help more personalize the experience.
+Personalized Recommendations: For the purpose of making the project more unique, the recommendations will have text generated that explain the reasoning behind the chosen food option. Characteristics are asked from the user to take into consideration when looking what foods to suggest to them. Their personal food preferences and restrictions are core factors, but features like a personas bodily metics and personal food history will help more personalize the experience.
 
 Food Consumption Analysis: There is an interest we have about using OpenAi to help summarize and find patterns in a users food history, to help create a mores specialized recommendation. An example of this system would be like suggesting movies on Netflix or product recommendations on amazon. The further use of Natural Language Processing (NLP) with Openai will help with tasks like creating recommendations with an appropriate analysis.
 
