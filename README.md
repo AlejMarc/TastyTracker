@@ -1,6 +1,6 @@
 # Welcome to the Tasty Tracker
 
-##Introduction:
+###Introduction:
 
 Unhealthy eating habits are a leading cause of global public health issues such as obesity and chronic diseases. Addressing these problems requires innovative approaches to guide individuals toward better food choices. The Healthy Food Recommender System is designed to tackle this challenge by providing users with personalized food recommendations that align with their taste preferences while promoting healthier alternatives. By leveraging advanced machine learning techniques, the system aims to encourage a gradual shift toward sustainable, nutritious diets.
 
