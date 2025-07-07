@@ -1,6 +1,6 @@
 # Welcome to the Tasty Tracker
 
-Introduction:
+##Introduction:
 
 Unhealthy eating habits are a leading cause of global public health issues such as obesity and chronic diseases. Addressing these problems requires innovative approaches to guide individuals toward better food choices. The Healthy Food Recommender System is designed to tackle this challenge by providing users with personalized food recommendations that align with their taste preferences while promoting healthier alternatives. By leveraging advanced machine learning techniques, the system aims to encourage a gradual shift toward sustainable, nutritious diets.
 
@@ -15,9 +15,9 @@ With a replit account, click on new app.
 Then select import from github. Paste the Github repolink when asked for.
 
 Once you get to the configure you app page, it will ask for a command key, paste the following key.
-
+```bash
 streamlit run main.py --server.port 5000
-
+```
 Here's an example of what it should look like.
 
 Some Unique Features:
